@@ -23,7 +23,7 @@ require __DIR__.'/auth.php';
 
 Route::resource('kamar', \App\Http\Controllers\KamarController::class);
 Route::resource('penghuni', \App\Http\Controllers\PenghuniController::class);
-Route::resource('pembayaran', \App\Http\Controllers\PembayaranController::class);
+Route::resource('pembayaran', \App\Http\Controllers\PembayaranController::class
 
 // Route::resource('kamar', KamarController::class);
 // Route::resource('penghuni', PenghuniController::class);
